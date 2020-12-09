@@ -1,0 +1,6 @@
+name: Autosmelter
+version: 1.0-SNAPSHOT
+main: me.vivekalhat.autosmelter
+api-version: 1.16
+authors: [ VivekAlhat ]
+description: Drops ingots on breaking iron/gold ores

@@ -20,6 +20,7 @@ public final class autosmelter extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        getServer().getPluginManager().registerEvents(this,this);
         getLogger().info("Enabling Autosmelter ..");
     }
 

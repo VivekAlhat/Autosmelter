@@ -35,7 +35,7 @@ public final class autosmelter extends JavaPlugin implements Listener {
 
             ArrayList<String> pages = new ArrayList<>();
             pages.add("Stop worrying about smelting your ores.\n Autosmelter smelts them automatically for you.");
-            pages.add("When you break iron/gold ore, instead of getting ore you'll get ingot with this plugin enabled.");
+            pages.add("With this plugin enabed, breaking iron/gold ores will drop ingots without smelting the ores.");
             bookMeta.setPages(pages);
             pluginBook.setItemMeta(bookMeta);
 
